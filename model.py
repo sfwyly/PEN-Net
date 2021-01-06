@@ -133,8 +133,8 @@ class InpaintGenerator(models.Model):
                                          layers.Conv2D(3,kernel_size = 3,strides = 1,activation="tanh",padding="same")])
     def call(self,img,mask):
         
-        x = img
-        
+        #x = img
+        x = tf.concat([img,mask],axis = -1)
         # encoder
         x1 = self.dw_conv01(x)
         x2 = self.dw_conv02(x1)

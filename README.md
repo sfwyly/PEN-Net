@@ -14,4 +14,4 @@ test
 All parameters are set in config.py.
 
 ## Details  
-The main innovation of this paper lies in the feature filling from the characteristics of the upper layer to the lower layer. On the whole, I feel that the innovation of this paper is insufficient.  
+The main innovation of this paper lies in the feature filling from the characteristics of the upper layer to the lower layer. 
